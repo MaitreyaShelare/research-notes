@@ -1,4 +1,4 @@
-## Week nn: dd MMM - dd MMM
+## Week 2
 
 ### Actions from the previous meeting
 - [ ] action 1
