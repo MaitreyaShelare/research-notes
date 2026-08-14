@@ -1,18 +1,20 @@
 ## Week 2
 
 ### Actions from the previous meeting
-- [ ] action 1
-- [ ] action 2
+- [ ] Ran Baselines on CUB and CIFAR
 
 ----
 ### Meeting Notes
-- point 1
-- point 2
+Experiment Results 
 
+- WANDB - CIFAR : https://api.wandb.ai/links/maitreya-cse-iit-bombay/t7r09umd
+- WANDB - CUB : https://api.wandb.ai/links/maitreya-cse-iit-bombay/kkw8x9wu
+
+- RESULTS - CIFAR : experiments/fgvc/results/cifar100/baseline
 
 ----
 
-### ToDo's for the next meeting
+### To Do for the next meeting
 
 - [ ] action 1
 - [ ] action 2

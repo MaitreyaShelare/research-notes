@@ -1,0 +1,147 @@
+{
+  "split": "test",
+  "timestamp": "2026-08-14T07:49:55.100706Z",
+  "retrieval": {
+    "top1_label_accuracy": 0.9344,
+    "top1_group_accuracy": 0.0,
+    "top3_label_accuracy": 0.988,
+    "top3_group_accuracy": 0.0,
+    "top5_label_accuracy": 0.9939,
+    "top5_group_accuracy": 0.0,
+    "mrr": 0.9606,
+    "n_queries": 10000,
+    "recall_at_1": 0.9344,
+    "recall_at_3": 0.988,
+    "recall_at_5": 0.9939
+  },
+  "open_set": {},
+  "prototype_quality": {
+    "mean_intra_cluster_similarity": 0.8522,
+    "mean_inter_cluster_similarity": 0.074,
+    "total_label_ids": 100,
+    "total_prototypes": 206
+  },
+  "ambiguity_rate": 0.0434,
+  "per_group": {
+    "aquatic_mammals": {
+      "top1_label_accuracy": 0.882,
+      "top3_label_accuracy": 0.982,
+      "mrr": 0.929,
+      "n_queries": 500
+    },
+    "fish": {
+      "top1_label_accuracy": 0.938,
+      "top3_label_accuracy": 0.988,
+      "mrr": 0.9627,
+      "n_queries": 500
+    },
+    "flowers": {
+      "top1_label_accuracy": 0.934,
+      "top3_label_accuracy": 0.992,
+      "mrr": 0.9615,
+      "n_queries": 500
+    },
+    "food_containers": {
+      "top1_label_accuracy": 0.91,
+      "top3_label_accuracy": 0.986,
+      "mrr": 0.9477,
+      "n_queries": 500
+    },
+    "fruit_and_vegetables": {
+      "top1_label_accuracy": 0.972,
+      "top3_label_accuracy": 0.994,
+      "mrr": 0.9828,
+      "n_queries": 500
+    },
+    "household_electrical_devices": {
+      "top1_label_accuracy": 0.964,
+      "top3_label_accuracy": 0.988,
+      "mrr": 0.9781,
+      "n_queries": 500
+    },
+    "household_furniture": {
+      "top1_label_accuracy": 0.95,
+      "top3_label_accuracy": 0.998,
+      "mrr": 0.973,
+      "n_queries": 500
+    },
+    "insects": {
+      "top1_label_accuracy": 0.962,
+      "top3_label_accuracy": 0.992,
+      "mrr": 0.9766,
+      "n_queries": 500
+    },
+    "large_carnivores": {
+      "top1_label_accuracy": 0.966,
+      "top3_label_accuracy": 0.992,
+      "mrr": 0.979,
+      "n_queries": 500
+    },
+    "large_man-made_outdoor_things": {
+      "top1_label_accuracy": 0.958,
+      "top3_label_accuracy": 0.998,
+      "mrr": 0.9772,
+      "n_queries": 500
+    },
+    "large_natural_outdoor_scenes": {
+      "top1_label_accuracy": 0.9,
+      "top3_label_accuracy": 0.984,
+      "mrr": 0.9404,
+      "n_queries": 500
+    },
+    "large_omnivores_and_herbivores": {
+      "top1_label_accuracy": 0.972,
+      "top3_label_accuracy": 0.982,
+      "mrr": 0.9776,
+      "n_queries": 500
+    },
+    "medium_mammals": {
+      "top1_label_accuracy": 0.93,
+      "top3_label_accuracy": 0.972,
+      "mrr": 0.9502,
+      "n_queries": 500
+    },
+    "non-insect_invertebrates": {
+      "top1_label_accuracy": 0.946,
+      "top3_label_accuracy": 0.986,
+      "mrr": 0.9669,
+      "n_queries": 500
+    },
+    "people": {
+      "top1_label_accuracy": 0.868,
+      "top3_label_accuracy": 0.982,
+      "mrr": 0.9238,
+      "n_queries": 500
+    },
+    "reptiles": {
+      "top1_label_accuracy": 0.946,
+      "top3_label_accuracy": 0.99,
+      "mrr": 0.9672,
+      "n_queries": 500
+    },
+    "small_mammals": {
+      "top1_label_accuracy": 0.902,
+      "top3_label_accuracy": 0.972,
+      "mrr": 0.9381,
+      "n_queries": 500
+    },
+    "trees": {
+      "top1_label_accuracy": 0.836,
+      "top3_label_accuracy": 0.988,
+      "mrr": 0.9068,
+      "n_queries": 500
+    },
+    "vehicles_1": {
+      "top1_label_accuracy": 0.974,
+      "top3_label_accuracy": 0.996,
+      "mrr": 0.9858,
+      "n_queries": 500
+    },
+    "vehicles_2": {
+      "top1_label_accuracy": 0.978,
+      "top3_label_accuracy": 0.998,
+      "mrr": 0.9881,
+      "n_queries": 500
+    }
+  }
+}

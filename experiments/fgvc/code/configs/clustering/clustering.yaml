@@ -1,0 +1,23 @@
+# Prototype clustering configuration, shared across datasets.
+
+
+clustering:
+  algorithm: spherical_kmeans   # only algorithm supported
+  seed: 42
+
+  k_selection:
+    mode: hybrid                # auto | manual | hybrid
+    auto_k_range: [2, 20]
+    silhouette_weight: 0.5
+    compactness_weight: 0.3
+    purity_weight: 0.2
+
+  k_overrides: {}
+
+
+  min_cluster_size: 5   # clusters smaller than this are dissolved and reassigned
+
+  spherical_kmeans:
+    max_iter: 300
+    n_init: 10
+    tol: 1.0e-4

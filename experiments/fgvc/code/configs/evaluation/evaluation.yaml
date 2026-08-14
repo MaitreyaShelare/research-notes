@@ -1,0 +1,24 @@
+# Evaluation configuration, shared across datasets.
+
+evaluation:
+  retrieval:
+    top_k_values: [1, 3, 5]
+    compute_mrr: true
+    compute_recall_at_k: true
+
+  open_set:
+    compute_auroc: true
+    compute_far_frr: true
+    withheld_labels: []   # label_ids withheld from training to simulate unknown classes
+    # Example: [Thrips, Dusky_Cotton_Bug]
+
+  manifold:
+    compute_intra_cluster_compactness: true
+    compute_inter_cluster_separation: true
+    compute_ambiguity_rate: true
+    ambiguity_margin_threshold: 0.05
+
+  visualization:
+    umap: true
+    tsne: true
+    retrieval_grid: true

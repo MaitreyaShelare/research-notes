@@ -1,0 +1,1561 @@
+{
+  "units": {
+    "Acadian_Flycatcher": {
+      "k": 2,
+      "file": "Acadian_Flycatcher.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "American_Crow": {
+      "k": 2,
+      "file": "American_Crow.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "American_Goldfinch": {
+      "k": 2,
+      "file": "American_Goldfinch.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "American_Pipit": {
+      "k": 2,
+      "file": "American_Pipit.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "American_Redstart": {
+      "k": 2,
+      "file": "American_Redstart.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "American_Three_toed_Woodpecker": {
+      "k": 2,
+      "file": "American_Three_toed_Woodpecker.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Anna_Hummingbird": {
+      "k": 2,
+      "file": "Anna_Hummingbird.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Artic_Tern": {
+      "k": 2,
+      "file": "Artic_Tern.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Baird_Sparrow": {
+      "k": 1,
+      "file": "Baird_Sparrow.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Baltimore_Oriole": {
+      "k": 2,
+      "file": "Baltimore_Oriole.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Bank_Swallow": {
+      "k": 2,
+      "file": "Bank_Swallow.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Barn_Swallow": {
+      "k": 2,
+      "file": "Barn_Swallow.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Bay_breasted_Warbler": {
+      "k": 2,
+      "file": "Bay_breasted_Warbler.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Belted_Kingfisher": {
+      "k": 2,
+      "file": "Belted_Kingfisher.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Bewick_Wren": {
+      "k": 1,
+      "file": "Bewick_Wren.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Black_Tern": {
+      "k": 2,
+      "file": "Black_Tern.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Black_and_white_Warbler": {
+      "k": 2,
+      "file": "Black_and_white_Warbler.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Black_billed_Cuckoo": {
+      "k": 1,
+      "file": "Black_billed_Cuckoo.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Black_capped_Vireo": {
+      "k": 2,
+      "file": "Black_capped_Vireo.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Black_footed_Albatross": {
+      "k": 2,
+      "file": "Black_footed_Albatross.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Black_throated_Blue_Warbler": {
+      "k": 2,
+      "file": "Black_throated_Blue_Warbler.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Black_throated_Sparrow": {
+      "k": 1,
+      "file": "Black_throated_Sparrow.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Blue_Grosbeak": {
+      "k": 2,
+      "file": "Blue_Grosbeak.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Blue_Jay": {
+      "k": 1,
+      "file": "Blue_Jay.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Blue_headed_Vireo": {
+      "k": 2,
+      "file": "Blue_headed_Vireo.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Blue_winged_Warbler": {
+      "k": 1,
+      "file": "Blue_winged_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Boat_tailed_Grackle": {
+      "k": 2,
+      "file": "Boat_tailed_Grackle.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Bobolink": {
+      "k": 1,
+      "file": "Bobolink.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Bohemian_Waxwing": {
+      "k": 2,
+      "file": "Bohemian_Waxwing.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Brandt_Cormorant": {
+      "k": 2,
+      "file": "Brandt_Cormorant.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Brewer_Blackbird": {
+      "k": 1,
+      "file": "Brewer_Blackbird.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Brewer_Sparrow": {
+      "k": 2,
+      "file": "Brewer_Sparrow.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Bronzed_Cowbird": {
+      "k": 1,
+      "file": "Bronzed_Cowbird.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Brown_Creeper": {
+      "k": 1,
+      "file": "Brown_Creeper.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Brown_Pelican": {
+      "k": 2,
+      "file": "Brown_Pelican.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Brown_Thrasher": {
+      "k": 2,
+      "file": "Brown_Thrasher.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Cactus_Wren": {
+      "k": 2,
+      "file": "Cactus_Wren.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "California_Gull": {
+      "k": 1,
+      "file": "California_Gull.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Canada_Warbler": {
+      "k": 2,
+      "file": "Canada_Warbler.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Cape_Glossy_Starling": {
+      "k": 1,
+      "file": "Cape_Glossy_Starling.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Cape_May_Warbler": {
+      "k": 2,
+      "file": "Cape_May_Warbler.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Cardinal": {
+      "k": 1,
+      "file": "Cardinal.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Carolina_Wren": {
+      "k": 1,
+      "file": "Carolina_Wren.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Caspian_Tern": {
+      "k": 2,
+      "file": "Caspian_Tern.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Cedar_Waxwing": {
+      "k": 2,
+      "file": "Cedar_Waxwing.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Cerulean_Warbler": {
+      "k": 1,
+      "file": "Cerulean_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Chestnut_sided_Warbler": {
+      "k": 2,
+      "file": "Chestnut_sided_Warbler.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Chipping_Sparrow": {
+      "k": 2,
+      "file": "Chipping_Sparrow.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Chuck_will_Widow": {
+      "k": 2,
+      "file": "Chuck_will_Widow.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Clark_Nutcracker": {
+      "k": 2,
+      "file": "Clark_Nutcracker.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Clay_colored_Sparrow": {
+      "k": 1,
+      "file": "Clay_colored_Sparrow.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Cliff_Swallow": {
+      "k": 2,
+      "file": "Cliff_Swallow.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Common_Raven": {
+      "k": 2,
+      "file": "Common_Raven.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Common_Tern": {
+      "k": 2,
+      "file": "Common_Tern.npy",
+      "cluster_sizes": [
+        17,
+        8
+      ]
+    },
+    "Common_Yellowthroat": {
+      "k": 1,
+      "file": "Common_Yellowthroat.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Crested_Auklet": {
+      "k": 1,
+      "file": "Crested_Auklet.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Dark_eyed_Junco": {
+      "k": 2,
+      "file": "Dark_eyed_Junco.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Downy_Woodpecker": {
+      "k": 1,
+      "file": "Downy_Woodpecker.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Eared_Grebe": {
+      "k": 2,
+      "file": "Eared_Grebe.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Eastern_Towhee": {
+      "k": 2,
+      "file": "Eastern_Towhee.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Elegant_Tern": {
+      "k": 2,
+      "file": "Elegant_Tern.npy",
+      "cluster_sizes": [
+        17,
+        8
+      ]
+    },
+    "European_Goldfinch": {
+      "k": 2,
+      "file": "European_Goldfinch.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Evening_Grosbeak": {
+      "k": 1,
+      "file": "Evening_Grosbeak.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Field_Sparrow": {
+      "k": 2,
+      "file": "Field_Sparrow.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Fish_Crow": {
+      "k": 2,
+      "file": "Fish_Crow.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Florida_Jay": {
+      "k": 2,
+      "file": "Florida_Jay.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Forsters_Tern": {
+      "k": 2,
+      "file": "Forsters_Tern.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Fox_Sparrow": {
+      "k": 2,
+      "file": "Fox_Sparrow.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Frigatebird": {
+      "k": 2,
+      "file": "Frigatebird.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Gadwall": {
+      "k": 1,
+      "file": "Gadwall.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Geococcyx": {
+      "k": 2,
+      "file": "Geococcyx.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Glaucous_winged_Gull": {
+      "k": 1,
+      "file": "Glaucous_winged_Gull.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Golden_winged_Warbler": {
+      "k": 2,
+      "file": "Golden_winged_Warbler.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Grasshopper_Sparrow": {
+      "k": 2,
+      "file": "Grasshopper_Sparrow.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Gray_Catbird": {
+      "k": 1,
+      "file": "Gray_Catbird.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Gray_Kingbird": {
+      "k": 2,
+      "file": "Gray_Kingbird.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Gray_crowned_Rosy_Finch": {
+      "k": 1,
+      "file": "Gray_crowned_Rosy_Finch.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Great_Crested_Flycatcher": {
+      "k": 2,
+      "file": "Great_Crested_Flycatcher.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Great_Grey_Shrike": {
+      "k": 1,
+      "file": "Great_Grey_Shrike.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Green_Jay": {
+      "k": 2,
+      "file": "Green_Jay.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Green_Kingfisher": {
+      "k": 2,
+      "file": "Green_Kingfisher.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Green_Violetear": {
+      "k": 1,
+      "file": "Green_Violetear.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Green_tailed_Towhee": {
+      "k": 2,
+      "file": "Green_tailed_Towhee.npy",
+      "cluster_sizes": [
+        17,
+        8
+      ]
+    },
+    "Groove_billed_Ani": {
+      "k": 2,
+      "file": "Groove_billed_Ani.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Harris_Sparrow": {
+      "k": 2,
+      "file": "Harris_Sparrow.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Heermann_Gull": {
+      "k": 2,
+      "file": "Heermann_Gull.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Henslow_Sparrow": {
+      "k": 2,
+      "file": "Henslow_Sparrow.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Herring_Gull": {
+      "k": 2,
+      "file": "Herring_Gull.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Hooded_Merganser": {
+      "k": 1,
+      "file": "Hooded_Merganser.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Hooded_Oriole": {
+      "k": 2,
+      "file": "Hooded_Oriole.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Hooded_Warbler": {
+      "k": 2,
+      "file": "Hooded_Warbler.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Horned_Grebe": {
+      "k": 2,
+      "file": "Horned_Grebe.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Horned_Lark": {
+      "k": 2,
+      "file": "Horned_Lark.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Horned_Puffin": {
+      "k": 2,
+      "file": "Horned_Puffin.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "House_Sparrow": {
+      "k": 2,
+      "file": "House_Sparrow.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "House_Wren": {
+      "k": 1,
+      "file": "House_Wren.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Indigo_Bunting": {
+      "k": 2,
+      "file": "Indigo_Bunting.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Ivory_Gull": {
+      "k": 2,
+      "file": "Ivory_Gull.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Kentucky_Warbler": {
+      "k": 1,
+      "file": "Kentucky_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Laysan_Albatross": {
+      "k": 2,
+      "file": "Laysan_Albatross.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Lazuli_Bunting": {
+      "k": 2,
+      "file": "Lazuli_Bunting.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Le_Conte_Sparrow": {
+      "k": 2,
+      "file": "Le_Conte_Sparrow.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Least_Auklet": {
+      "k": 1,
+      "file": "Least_Auklet.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Least_Flycatcher": {
+      "k": 2,
+      "file": "Least_Flycatcher.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Least_Tern": {
+      "k": 2,
+      "file": "Least_Tern.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Lincoln_Sparrow": {
+      "k": 2,
+      "file": "Lincoln_Sparrow.npy",
+      "cluster_sizes": [
+        11,
+        14
+      ]
+    },
+    "Loggerhead_Shrike": {
+      "k": 2,
+      "file": "Loggerhead_Shrike.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Long_tailed_Jaeger": {
+      "k": 1,
+      "file": "Long_tailed_Jaeger.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Louisiana_Waterthrush": {
+      "k": 2,
+      "file": "Louisiana_Waterthrush.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Magnolia_Warbler": {
+      "k": 2,
+      "file": "Magnolia_Warbler.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Mallard": {
+      "k": 1,
+      "file": "Mallard.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Mangrove_Cuckoo": {
+      "k": 2,
+      "file": "Mangrove_Cuckoo.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Marsh_Wren": {
+      "k": 1,
+      "file": "Marsh_Wren.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Mockingbird": {
+      "k": 2,
+      "file": "Mockingbird.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Mourning_Warbler": {
+      "k": 2,
+      "file": "Mourning_Warbler.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Myrtle_Warbler": {
+      "k": 2,
+      "file": "Myrtle_Warbler.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Nashville_Warbler": {
+      "k": 2,
+      "file": "Nashville_Warbler.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Nelson_Sharp_tailed_Sparrow": {
+      "k": 2,
+      "file": "Nelson_Sharp_tailed_Sparrow.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Nighthawk": {
+      "k": 2,
+      "file": "Nighthawk.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Northern_Flicker": {
+      "k": 2,
+      "file": "Northern_Flicker.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Northern_Fulmar": {
+      "k": 2,
+      "file": "Northern_Fulmar.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Northern_Waterthrush": {
+      "k": 2,
+      "file": "Northern_Waterthrush.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Olive_sided_Flycatcher": {
+      "k": 2,
+      "file": "Olive_sided_Flycatcher.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Orange_crowned_Warbler": {
+      "k": 2,
+      "file": "Orange_crowned_Warbler.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Orchard_Oriole": {
+      "k": 2,
+      "file": "Orchard_Oriole.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Ovenbird": {
+      "k": 1,
+      "file": "Ovenbird.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Pacific_Loon": {
+      "k": 2,
+      "file": "Pacific_Loon.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Painted_Bunting": {
+      "k": 1,
+      "file": "Painted_Bunting.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Palm_Warbler": {
+      "k": 2,
+      "file": "Palm_Warbler.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Parakeet_Auklet": {
+      "k": 2,
+      "file": "Parakeet_Auklet.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Pelagic_Cormorant": {
+      "k": 2,
+      "file": "Pelagic_Cormorant.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Philadelphia_Vireo": {
+      "k": 2,
+      "file": "Philadelphia_Vireo.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Pied_Kingfisher": {
+      "k": 2,
+      "file": "Pied_Kingfisher.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Pied_billed_Grebe": {
+      "k": 2,
+      "file": "Pied_billed_Grebe.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Pigeon_Guillemot": {
+      "k": 2,
+      "file": "Pigeon_Guillemot.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Pileated_Woodpecker": {
+      "k": 2,
+      "file": "Pileated_Woodpecker.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Pine_Grosbeak": {
+      "k": 2,
+      "file": "Pine_Grosbeak.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "Pine_Warbler": {
+      "k": 1,
+      "file": "Pine_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Pomarine_Jaeger": {
+      "k": 2,
+      "file": "Pomarine_Jaeger.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Prairie_Warbler": {
+      "k": 2,
+      "file": "Prairie_Warbler.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "Prothonotary_Warbler": {
+      "k": 2,
+      "file": "Prothonotary_Warbler.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Purple_Finch": {
+      "k": 2,
+      "file": "Purple_Finch.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Red_bellied_Woodpecker": {
+      "k": 1,
+      "file": "Red_bellied_Woodpecker.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Red_breasted_Merganser": {
+      "k": 2,
+      "file": "Red_breasted_Merganser.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Red_cockaded_Woodpecker": {
+      "k": 2,
+      "file": "Red_cockaded_Woodpecker.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Red_eyed_Vireo": {
+      "k": 1,
+      "file": "Red_eyed_Vireo.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Red_faced_Cormorant": {
+      "k": 1,
+      "file": "Red_faced_Cormorant.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Red_headed_Woodpecker": {
+      "k": 1,
+      "file": "Red_headed_Woodpecker.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Red_legged_Kittiwake": {
+      "k": 2,
+      "file": "Red_legged_Kittiwake.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Red_winged_Blackbird": {
+      "k": 2,
+      "file": "Red_winged_Blackbird.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Rhinoceros_Auklet": {
+      "k": 2,
+      "file": "Rhinoceros_Auklet.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Ring_billed_Gull": {
+      "k": 2,
+      "file": "Ring_billed_Gull.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Ringed_Kingfisher": {
+      "k": 2,
+      "file": "Ringed_Kingfisher.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Rock_Wren": {
+      "k": 2,
+      "file": "Rock_Wren.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Rose_breasted_Grosbeak": {
+      "k": 1,
+      "file": "Rose_breasted_Grosbeak.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Ruby_throated_Hummingbird": {
+      "k": 2,
+      "file": "Ruby_throated_Hummingbird.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Rufous_Hummingbird": {
+      "k": 2,
+      "file": "Rufous_Hummingbird.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Rusty_Blackbird": {
+      "k": 2,
+      "file": "Rusty_Blackbird.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Sage_Thrasher": {
+      "k": 1,
+      "file": "Sage_Thrasher.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Savannah_Sparrow": {
+      "k": 2,
+      "file": "Savannah_Sparrow.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "Sayornis": {
+      "k": 2,
+      "file": "Sayornis.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Scarlet_Tanager": {
+      "k": 2,
+      "file": "Scarlet_Tanager.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Scissor_tailed_Flycatcher": {
+      "k": 1,
+      "file": "Scissor_tailed_Flycatcher.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Scott_Oriole": {
+      "k": 2,
+      "file": "Scott_Oriole.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Seaside_Sparrow": {
+      "k": 2,
+      "file": "Seaside_Sparrow.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Shiny_Cowbird": {
+      "k": 2,
+      "file": "Shiny_Cowbird.npy",
+      "cluster_sizes": [
+        17,
+        8
+      ]
+    },
+    "Slaty_backed_Gull": {
+      "k": 2,
+      "file": "Slaty_backed_Gull.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Song_Sparrow": {
+      "k": 2,
+      "file": "Song_Sparrow.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Sooty_Albatross": {
+      "k": 2,
+      "file": "Sooty_Albatross.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Spotted_Catbird": {
+      "k": 2,
+      "file": "Spotted_Catbird.npy",
+      "cluster_sizes": [
+        8,
+        17
+      ]
+    },
+    "Summer_Tanager": {
+      "k": 2,
+      "file": "Summer_Tanager.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Swainson_Warbler": {
+      "k": 2,
+      "file": "Swainson_Warbler.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Tennessee_Warbler": {
+      "k": 2,
+      "file": "Tennessee_Warbler.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Tree_Sparrow": {
+      "k": 2,
+      "file": "Tree_Sparrow.npy",
+      "cluster_sizes": [
+        17,
+        8
+      ]
+    },
+    "Tree_Swallow": {
+      "k": 2,
+      "file": "Tree_Swallow.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Tropical_Kingbird": {
+      "k": 2,
+      "file": "Tropical_Kingbird.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Vermilion_Flycatcher": {
+      "k": 2,
+      "file": "Vermilion_Flycatcher.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Vesper_Sparrow": {
+      "k": 1,
+      "file": "Vesper_Sparrow.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Warbling_Vireo": {
+      "k": 2,
+      "file": "Warbling_Vireo.npy",
+      "cluster_sizes": [
+        19,
+        6
+      ]
+    },
+    "Western_Grebe": {
+      "k": 2,
+      "file": "Western_Grebe.npy",
+      "cluster_sizes": [
+        13,
+        12
+      ]
+    },
+    "Western_Gull": {
+      "k": 2,
+      "file": "Western_Gull.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "Western_Meadowlark": {
+      "k": 2,
+      "file": "Western_Meadowlark.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Western_Wood_Pewee": {
+      "k": 2,
+      "file": "Western_Wood_Pewee.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "Whip_poor_Will": {
+      "k": 2,
+      "file": "Whip_poor_Will.npy",
+      "cluster_sizes": [
+        6,
+        19
+      ]
+    },
+    "White_Pelican": {
+      "k": 2,
+      "file": "White_Pelican.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "White_breasted_Kingfisher": {
+      "k": 2,
+      "file": "White_breasted_Kingfisher.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "White_breasted_Nuthatch": {
+      "k": 2,
+      "file": "White_breasted_Nuthatch.npy",
+      "cluster_sizes": [
+        18,
+        7
+      ]
+    },
+    "White_crowned_Sparrow": {
+      "k": 2,
+      "file": "White_crowned_Sparrow.npy",
+      "cluster_sizes": [
+        7,
+        18
+      ]
+    },
+    "White_eyed_Vireo": {
+      "k": 2,
+      "file": "White_eyed_Vireo.npy",
+      "cluster_sizes": [
+        10,
+        15
+      ]
+    },
+    "White_necked_Raven": {
+      "k": 2,
+      "file": "White_necked_Raven.npy",
+      "cluster_sizes": [
+        5,
+        20
+      ]
+    },
+    "White_throated_Sparrow": {
+      "k": 2,
+      "file": "White_throated_Sparrow.npy",
+      "cluster_sizes": [
+        16,
+        9
+      ]
+    },
+    "Wilson_Warbler": {
+      "k": 2,
+      "file": "Wilson_Warbler.npy",
+      "cluster_sizes": [
+        14,
+        11
+      ]
+    },
+    "Winter_Wren": {
+      "k": 2,
+      "file": "Winter_Wren.npy",
+      "cluster_sizes": [
+        15,
+        10
+      ]
+    },
+    "Worm_eating_Warbler": {
+      "k": 1,
+      "file": "Worm_eating_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Yellow_Warbler": {
+      "k": 1,
+      "file": "Yellow_Warbler.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Yellow_bellied_Flycatcher": {
+      "k": 2,
+      "file": "Yellow_bellied_Flycatcher.npy",
+      "cluster_sizes": [
+        12,
+        13
+      ]
+    },
+    "Yellow_billed_Cuckoo": {
+      "k": 2,
+      "file": "Yellow_billed_Cuckoo.npy",
+      "cluster_sizes": [
+        20,
+        5
+      ]
+    },
+    "Yellow_breasted_Chat": {
+      "k": 2,
+      "file": "Yellow_breasted_Chat.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    },
+    "Yellow_headed_Blackbird": {
+      "k": 1,
+      "file": "Yellow_headed_Blackbird.npy",
+      "cluster_sizes": [
+        25
+      ]
+    },
+    "Yellow_throated_Vireo": {
+      "k": 2,
+      "file": "Yellow_throated_Vireo.npy",
+      "cluster_sizes": [
+        9,
+        16
+      ]
+    }
+  },
+  "summary": {
+    "total_label_ids": 200,
+    "total_prototypes": 353
+  }
+}

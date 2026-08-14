@@ -1,0 +1,26 @@
+{
+  "split": "val",
+  "timestamp": "2026-08-13T10:11:44.774031Z",
+  "retrieval": {
+    "top1_label_accuracy": 0.8813,
+    "top1_group_accuracy": 1.0,
+    "top3_label_accuracy": 0.9678,
+    "top3_group_accuracy": 1.0,
+    "top5_label_accuracy": 0.9849,
+    "top5_group_accuracy": 1.0,
+    "mrr": 0.9254,
+    "n_queries": 994,
+    "recall_at_1": 0.8813,
+    "recall_at_3": 0.9678,
+    "recall_at_5": 0.9849
+  },
+  "open_set": {},
+  "prototype_quality": {
+    "mean_intra_cluster_similarity": 0.8827,
+    "mean_inter_cluster_similarity": 0.0866,
+    "total_label_ids": 200,
+    "total_prototypes": 353
+  },
+  "ambiguity_rate": 0.1087,
+  "per_group": {}
+}

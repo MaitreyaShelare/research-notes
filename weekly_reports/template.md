@@ -9,10 +9,9 @@
 - point 1
 - point 2
 
-
 ----
 
-### ToDo's for the next meeting
+### To Do for the next meeting
 
 - [ ] action 1
 - [ ] action 2
