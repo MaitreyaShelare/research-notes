@@ -1,10 +1,42 @@
-## Week 2
+# Week 2
 
-### Experiment Results
+## fgvc — Prototype-Based Fine-Grained Visual Classification
 
-- WANDB - CIFAR : [W&B Report](https://api.wandb.ai/links/maitreya-cse-iit-bombay/t7r09umd)
+A dataset-agnostic pipeline for prototype/retrieval-based fine-grained
+visual classification: fine-tune a backbone, build a per-class prototype
+memory with Spherical K-Means, and classify new images by cosine-similarity
+retrieval against that memory (with open-set "unknown" detection).
 
-- WANDB - CUB : [W&B Report](https://api.wandb.ai/links/maitreya-cse-iit-bombay/kkw8x9wu)
+
+## Architecture Overview
+
+```
+Query Image
+    │
+    ▼
+┌─────────────────────────────────────────────────────────┐
+│  Backbone (any timm model, fine-tuned)                   │
+│  → L2-normalised embedding  (e.g. 768-D for ViT-B/14)     │
+└──────────────────────────────┬───────────────────────────┘
+                                │
+                                ▼
+┌────────────────────────────────────────────────────────────┐
+│  Prototype Memory  (Spherical K-Means)                      │
+│  Per label_id (the fine-grained class): K centroids on S^d  │
+└──────────────────────────────┬───────────────────────────────┘
+                                │  cosine similarity + MAX pool
+                                ▼
+┌────────────────────────────────────────────────────────────┐
+│  RetrievalEngine                                             │
+│  Ranked list of (label_id, group, label, score) + open-set   │
+└────────────────────────────────────────────────────────────┘
+```
+
+### WANDB Plots
+
+- CIFAR : [W&B Report](https://api.wandb.ai/links/maitreya-cse-iit-bombay/t7r09umd)
+
+- CUB : [W&B Report](https://api.wandb.ai/links/maitreya-cse-iit-bombay/kkw8x9wu)
 
 ---
 
