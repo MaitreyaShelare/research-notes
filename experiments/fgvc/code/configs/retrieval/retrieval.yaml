@@ -1,7 +1,0 @@
-# Retrieval configuration, shared across datasets.
-
-retrieval:
-  similarity_metric: cosine   
-  aggregation: max           
-  top_k: 5
-

@@ -1,9 +1,0 @@
-# Overrides on top of configs/training/default.yaml, applied only when
-# --dataset cub200.
-training:
-  experiment_name: cub200_dinov2_ce_v1
-  epochs: 50
-  batch_size: 64
-  wandb:
-    group: cub200
-    tags: [dinov2, ce, cub200]

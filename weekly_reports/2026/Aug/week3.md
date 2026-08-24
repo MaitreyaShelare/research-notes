@@ -1,5 +1,5 @@
 # Week 3
-## fgvc — Prototype-Based Fine-Grained Visual Classification
+## FGVC — Prototype-Based Fine-Grained Visual Classification
 
 ### Actions Taken
 - Trained Model End-to-End with different params, hyperparams, losses
@@ -19,8 +19,11 @@
 
 ### RESULTS - CUB200 — DINOv3 CE SupCon v9
 
-- [Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/evaluation)
-- [Visualization](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/visualizations)
+- [Config Snapshot](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/config_snapshot.yaml)
+- [Test Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/evaluation/test_metrics.json)
+
+- [All Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/evaluation)
+- [All Visualizations](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/visualizations)
 
 #### Visualizations
 
@@ -42,10 +45,16 @@
 - [Validation Predictions](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/evaluation/val_predictions.csv)
 - [Calibration Thresholds](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v9/outputs/calibration/per_group_thresholds.json)
 
+---
 ### RESULTS - CUB200 — DINOv3 CE SupCon v13
 
-- [Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/evaluation)
-- [Visualization](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/visualizations)
+
+- [Config Snapshot](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/config_snapshot.yaml)
+- [Test Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/evaluation/test_metrics.json)
+
+- [All Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/evaluation)
+- [All Visualizations](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/visualizations)
+
 
 #### Visualizations
 
@@ -68,3 +77,15 @@
 - [Calibration Thresholds](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/calibration/per_group_thresholds.json)
 
 -----
+## FAVS — Fine-Grained Audio Visual Segmentation
+
+### Actions Taken
+- Studied about the problem of AVS - Given a video, determine whether the audio has a visible source in the scene, and if so, identify and segment the visible source.
+- Studied three settings - S4 (Single Sound Source
+Segmentation), MS3 (Multiple Sound Source
+Segmentation), AVSS (Audio-Visual Semantic
+Segmentation)
+
+### Actions to do
+- Identified two possible directions - Robustness & Real-time inference, decided on Robustness after discussion
+- Found Relevant paper on Robustness - AAAI 2026 - [text](https://ojs.aaai.org/index.php/AAAI/article/view/37542)
