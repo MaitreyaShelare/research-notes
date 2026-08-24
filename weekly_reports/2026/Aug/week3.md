@@ -88,4 +88,4 @@ Segmentation)
 
 ### Actions to do
 - Identified two possible directions - Robustness & Real-time inference, decided on Robustness after discussion
-- Found Relevant paper on Robustness - AAAI 2026 - [text](https://ojs.aaai.org/index.php/AAAI/article/view/37542)
+- Found Relevant paper on Robustness - AAAI 2026 - [Do Audio-Visual Segmentation Models Truly Segment Sounding Objects?](https://ojs.aaai.org/index.php/AAAI/article/view/37542)
