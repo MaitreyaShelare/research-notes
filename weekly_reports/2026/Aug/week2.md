@@ -58,7 +58,6 @@ Query Image
 
 #### Other Results
 
-- [Prototypes](../../../experiments/fgvc/results/cifar100/baseline/prototype_memory)
 - [Logs](../../../experiments/fgvc/results/cifar100/baseline/logs)
 - [Evaluation Metrics](../../../experiments/fgvc/results/cifar100/baseline/outputs/evaluation/test_metrics.json)
 - [Test Predictions](../../../experiments/fgvc/results/cifar100/baseline/outputs/evaluation/test_predictions.csv)
@@ -86,7 +85,6 @@ Query Image
 
 #### Other Results
 
-- [Prototypes](../../../experiments/fgvc/results/cub200/baseline/prototype_memory)
 - [Logs](../../../experiments/fgvc/results/cub200/baseline/logs)
 - [Evaluation Metrics](../../../experiments/fgvc/results/cub200/baseline/outputs/evaluation/test_metrics.json)
 - [Test Predictions](../../../experiments/fgvc/results/cub200/baseline/outputs/evaluation/test_predictions.csv)

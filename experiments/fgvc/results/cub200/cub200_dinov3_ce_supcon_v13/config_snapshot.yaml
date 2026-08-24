@@ -1,0 +1,161 @@
+dataset:
+  name: cub200
+  version: '1.0'
+  adapter: cub200
+  adapter_kwargs:
+    root: /home/maitreya/research/datasets/CUB_200_2011
+    source: local
+    download: false
+  processed_root: /mnt/data/research/projects/fgvc/data/processed/cub200
+  splits_dir: /mnt/data/research/projects/fgvc/data/processed/cub200/splits
+  valid_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  seed: 42
+  split_ratios:
+    train: 0.85
+    val: 0.15
+    test: 0.15
+  respect_official_split: true
+  taxonomy:
+    compose_label_id:
+    - label
+training:
+  experiment_name: cub200_dinov3_ce_supcon_v13
+  seed: 42
+  backbone:
+    model_name: facebook/dinov3-vitb16-pretrain-lvd1689m
+    pretrained: true
+    freeze_backbone: false
+    embedding_dim: 768
+  input:
+    image_size: 384
+    mean:
+    - 0.485
+    - 0.456
+    - 0.406
+    std:
+    - 0.229
+    - 0.224
+    - 0.225
+  augmentation:
+    train:
+      random_resized_crop: true
+      horizontal_flip: true
+      color_jitter:
+        brightness: 0.2
+        contrast: 0.2
+        saturation: 0.2
+        hue: 0.05
+      rotation_degrees: 15
+    val:
+      center_crop: true
+  optimizer:
+    name: adamw
+    lr: 0.0001
+    weight_decay: 0.01
+    backbone_lr_multiplier: 0.05
+  scheduler:
+    name: cosine
+    warmup_epochs: 3
+    min_lr: 1.0e-06
+  loss:
+    ce_weight: 1.0
+    supcon_weight: 0.5
+    supcon_temperature: 0.07
+    label_smoothing: 0.0
+  epochs: 100
+  batch_size: 32
+  gradient_accumulation_steps: 1
+  mixed_precision: true
+  gradient_clip_norm: 1.0
+  early_stopping:
+    enabled: true
+    patience: 5
+    min_delta: 0.001
+  dataloader:
+    num_workers: 8
+    pin_memory: true
+    persistent_workers: true
+    prefetch_factor: 4
+  ddp:
+    enabled: true
+    backend: nccl
+  checkpointing:
+    save_periodic: false
+    save_every_n_epochs: 5
+    monitor: val/top1_acc
+    mode: max
+  wandb:
+    enabled: true
+    project: fgvc
+    tags:
+    - dinov3
+    - ce_1
+    - supcon_0.5
+    - supcon_temperature_0.07
+    - backbone_lr_multiplier_0.05
+    - cub200
+    - image_size_384
+    - batch_size_32
+    log_every_n_steps: 50
+    group: cub200
+clustering:
+  algorithm: spherical_kmeans
+  seed: 42
+  k_selection:
+    mode: hybrid
+    auto_k_range:
+    - 2
+    - 20
+    silhouette_weight: 0.5
+    compactness_weight: 0.3
+    purity_weight: 0.2
+  k_overrides: {}
+  min_cluster_size: 5
+  spherical_kmeans:
+    max_iter: 300
+    n_init: 10
+    tol: 0.0001
+retrieval:
+  similarity_metric: cosine
+  aggregation: max
+  top_k: 5
+  ann:
+    enabled: false
+    backend: faiss
+    index_type: IVFFlat
+    nlist: 100
+    nprobe: 10
+inference:
+  default_similarity_threshold: 0.6
+  default_margin_threshold: 0.05
+  calibration_percentile: 5
+  group_thresholds: {}
+  taxonomy:
+    enabled: true
+    unknown_pair_confidence_penalty: 0.05
+    warn_implausible_pairs: true
+  output_top_k: 5
+evaluation:
+  retrieval:
+    top_k_values:
+    - 1
+    - 3
+    - 5
+    compute_mrr: true
+    compute_recall_at_k: true
+  open_set:
+    compute_auroc: true
+    compute_far_frr: true
+    withheld_labels: []
+  manifold:
+    compute_intra_cluster_compactness: true
+    compute_inter_cluster_separation: true
+    compute_ambiguity_rate: true
+    ambiguity_margin_threshold: 0.05
+  visualization:
+    umap: true
+    tsne: true
+    retrieval_grid: true
