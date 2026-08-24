@@ -1,9 +1,15 @@
-# Week 2
-
+# Week 3
 ## fgvc — Prototype-Based Fine-Grained Visual Classification
 
+### Actions Taken
+- Trained Model End-to-End with different params, hyperparams, losses
+- Two Candidate Models - v9 and v13
 
-## Results
+### Observations
+- Having more number of prototypes, in general, improves accuracy and reduces ambiguity
+- Will need to work on ranking top 3, new loss, or new block addition - To find out
+
+## FGVC Results
 
 ### WANDB Plots
 
