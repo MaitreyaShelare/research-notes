@@ -3,6 +3,8 @@
 ## fgvc — Prototype-Based Fine-Grained Visual Classification
 
 
+## Results
+
 ### WANDB Plots
 
 - CUB v9 and v13 : [W&B Report](https://api.wandb.ai/links/maitreya-cse-iit-bombay/in42np5v)
@@ -58,26 +60,5 @@
 - [Validation Metrics](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/evaluation/val_metrics.json)
 - [Validation Predictions](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/evaluation/val_predictions.csv)
 - [Calibration Thresholds](../../../experiments/fgvc/results/cub200/cub200_dinov3_ce_supcon_v13/outputs/calibration/per_group_thresholds.json)
-
-
-
-## Week 3
-
-### Actions from the previous meeting
-- [ ] action 1
-- [ ] action 2
-
-----
-### Meeting Notes
-- point 1
-- point 2
-
-----
-
-### To Do for the next meeting
-
-- [ ] action 1
-- [ ] action 2
-
 
 -----
